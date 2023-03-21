@@ -1,0 +1,40 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #06baa8;
+    padding: 10px;
+    margin: auto;
+    opacity: 0.8;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.login>h1{
+    color: whitesmoke;
+    line-height: 2px;
+}
+.login>input{
+    margin: auto;
+    opacity: 0.8;
+    min-height: 30px;
+}
+.login>h3{
+    line-height: 2px;
+    font-size: large;
+    font-weight: 400;
+}
+.login>h5>span{
+    color: orangered;
+}
+.login>h5{
+    font-size: small;
+    font-weight: 400;
+    opacity: 0.7s;
+    margin-right: 100px;
+    line-height: 2px;
+}
+.login>h4{
+    font-size: small;
+    font-weight: 400;
+}
