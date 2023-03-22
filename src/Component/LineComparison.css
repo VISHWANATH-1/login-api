@@ -1,0 +1,15 @@
+.chart{
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    gap: 2rem;
+    margin-top: 2rem;
+    background: #06baa8;
+}
+.print{
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    background: wheat;
+}

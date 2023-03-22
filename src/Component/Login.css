@@ -1,13 +1,12 @@
 .login{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 600px;
     background: #06baa8;
     padding: 10px;
     margin: auto;
     opacity: 0.8;
     align-items: center;
-    margin-left: 100px;
     margin-top: 50px;
 }
 .login>h1{
@@ -37,4 +36,14 @@
 .login>h4{
     font-size: small;
     font-weight: 400;
+}
+.header{
+    display: flex;
+    margin-top: auto;
+}
+.header>span{
+    float: right;
+    margin-top: 60px;
+    margin-left: 20px;
+    align-items: center;
 }

@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.Navbar{
+  border:1px solid grey;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5rem;
+  background-color: rgb(151, 149, 147);
+  padding-bottom: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navlink{
+  margin-top: 1rem;
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 5%;
+  font-weight: 500;
   align-items: center;
+  padding: 10px;
+  color: azure;
+}
+.navlink>li:hover{
+  background: #054071;
+  color:rgb(228, 97, 97);
+}
+.form{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .form input {
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    background: rgb(196, 191, 188);
+    border: none;
   }
-  to {
-    transform: rotate(360deg);
+  .form button {
+    margin-top: 1rem;
+    width: 80px;
+    border:none;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
   }
-}
+  .form button:hover {
+    background: #054071;
+    color:white;
+  }
+  .form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .datesSelector{
+   padding: 20px;
+   width: fit-content;
+   margin: auto;
+   margin-top: 50px;
+   border: 1px solid grey;
+   border-radius: 10px;
+   background: rgb(240, 214, 214);
+  }
+  .datesHeading{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+  }
+  .dates{
+      margin-top: 2rem;
+      display: flex;
+      width: fit-content;
+      margin: auto;
+      text-align: center;
+      font-size: large;
+      padding-bottom:18px ;
+  }
+  .dates>span:hover{
+    color: #6f6969;
+    background-color: white;
+  }
+  .dates>span{
+   margin-left: 10px;
+   border-radius: 10px;
+  }
+  .form-modal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    width: 380px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 5rem;
+    box-sizing: border-box;
+  }
+ .inp-bx{
+  padding: 5px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ }
+
+ .form-modal>button{
+  width: 80px;
+  padding: 5px;
+  align-self: center;
+  margin-top: 15px;
+ }
+ .logout{
+  display: flex;
+  
+ }
